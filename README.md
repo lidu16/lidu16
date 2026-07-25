@@ -1,9 +1,13 @@
-# Hi, I’m Lidiya Mesenbet 👋
+# Hi — I'm Lidiya Mesenbet 👋
 
-I am a **Frontend Developer** passionate about building clean, responsive, and user-friendly web interfaces.  
-I love turning creative ideas into real products using HTML, CSS, and JavaScript.
+## Overview
+I'm a Frontend Developer who builds clean, responsive, and accessible web interfaces using HTML, CSS, and JavaScript. I combine strong UI skills with an interest in Machine Learning and Artificial Intelligence to create smarter, data-driven user experiences. I work with React, Vue, and Angular, and I focus on performance, accessibility, and polished UX.
 
-I enjoy working with frameworks like React, Vue, and Angular, and I am always eager to learn new technologies to improve my craft.  
-My goal is to deliver web experiences that look great, load fast, and work for everyone.
+## Skills
+- HTML5, CSS3, JavaScript (ES6+)
+- Frameworks: React, Vue, Angular
+- Tools: npm, Vite/webpack, Git, Chrome DevTools
+- Interests: Machine Learning, Artificial Intelligence, accessibility, performance
 
-Let’s build something amazing together!
+## Let’s Build
+If you have an idea or want to collaborate, I’m open to projects and collaborations — let’s build something amazing together!
