@@ -1,6 +1,6 @@
 # Hi — I'm Lidiya Mesenbet 👋
 
-[![Email](https://img.shields.io/badge/Email-lidiyamesenbet16%40gmail.com-c14438?logo=gmail)](mailto:lidiyamesenbet16@gmail.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?logo=linkedin)](https://www.linkedin.com/feed/update/urn:li:activity:7461368486683058176/) [![Twitter](https://img.shields.io/badge/Twitter-@lidu16-1DA1F2?logo=twitter)](https://twitter.com/lidu16)
+[![Email](https://img.shields.io/badge/Email-lidiyamesenbet16%40gmail.com-c14438?logo=gmail)](mailto:lidiyamesenbet16@gmail.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?logo=linkedin)](https://www.linkedin.com/in/lidiya-mesenbet-b08180312/) [![Twitter](https://img.shields.io/badge/Twitter-@lidu16-1DA1F2?logo=twitter)](https://twitter.com/lidu16)
 
 ## Overview
 I’m a developer focused on Machine Learning and Artificial Intelligence. I prototype models, evaluate performance, and deploy them as APIs so they can be integrated into products and workflows. My work emphasizes practical, data-driven solutions that deliver measurable value.
@@ -56,7 +56,7 @@ for epoch in range(10):
 
 ## Contact
 - Email: lidiyamesenbet16@gmail.com
-- LinkedIn: https://www.linkedin.com/feed/update/urn:li:activity:7461368486683058176/
+- LinkedIn: https://www.linkedin.com/in/lidiya-mesenbet-b08180312/
 - Twitter: https://twitter.com/lidu16
 
 If you'd like me to shorten further, change tone to more casual or more formal, or add screenshots and project highlights, tell me which tone and which projects to feature and I’ll update it.
