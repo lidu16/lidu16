@@ -1,18 +1,62 @@
 # Hi — I'm Lidiya Mesenbet 👋
 
+[![Email](https://img.shields.io/badge/Email-lidiyamesenbet16%40gmail.com-c14438?logo=gmail)](mailto:lidiyamesenbet16@gmail.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?logo=linkedin)](https://www.linkedin.com/feed/update/urn:li:activity:7461368486683058176/) [![Twitter](https://img.shields.io/badge/Twitter-@lidu16-1DA1F2?logo=twitter)](https://twitter.com/lidu16)
+
 ## Overview
-I'm a Developer focused on Machine Learning and Artificial Intelligence. I build data-driven, intelligent web experiences by combining frontend skills with ML/AI models and pipelines. My current focus is on applying ML and AI to solve real problems — from model prototyping and deployment to integrating models into applications for smarter, more helpful user experiences.
+I’m a developer focused on Machine Learning and Artificial Intelligence. I prototype models, evaluate performance, and deploy them as APIs so they can be integrated into products and workflows. My work emphasizes practical, data-driven solutions that deliver measurable value.
 
-## Skills
-- Machine Learning & AI: Python, TensorFlow, PyTorch, scikit-learn, model evaluation, feature engineering
-- Data: Pandas, NumPy, data visualization, exploratory data analysis
-- Deployment & Tools: Docker, REST APIs, Flask/FastAPI, cloud services, Jupyter Notebooks
-- Frontend (complementary): HTML, CSS, JavaScript, React — for integrating ML models into web apps
+## Projects (selected ML work)
+- 0bject-detection — object detection experiments and model training: https://github.com/lidu16/0bject-detection
+- fraud-detection — Jupyter notebooks for fraud detection workflows: https://github.com/lidu16/fraud-detection
+- credit-risk-model — credit scoring model experiments: https://github.com/lidu16/credit-risk-model
+- news-sentiment-project — linking news sentiment to market movements: https://github.com/lidu16/news-sentiment-project
+- brent-oil-change-point-analysis — time-series change point analysis: https://github.com/lidu16/brent-oil-change-point-analysis
+- letsStartAI — introductory AI projects and experiments: https://github.com/lidu16/letsStartAI
 
-## Current Focus
-- Prototyping ML models and pipelines
-- Deploying models as APIs and embedding them in apps
-- Building intelligent features that improve user workflows with data
+(See my repositories for more notebooks and analyses: https://github.com/lidu16)
 
-## Let’s Build
-If you have an AI/ML idea or a project that could benefit from machine intelligence, I’m open to collaborations — let’s create something impactful together!
+## Short examples
+A minimal scikit-learn pipeline for a classification task:
+
+```python
+from sklearn.pipeline import Pipeline
+from sklearn.impute import SimpleImputer
+from sklearn.preprocessing import StandardScaler
+from sklearn.ensemble import RandomForestClassifier
+
+pipeline = Pipeline([
+    ("imputer", SimpleImputer(strategy="median")),
+    ("scaler", StandardScaler()),
+    ("clf", RandomForestClassifier(n_estimators=100, random_state=0))
+])
+
+pipeline.fit(X_train, y_train)
+preds = pipeline.predict(X_test)
+```
+
+A concise PyTorch training loop skeleton:
+
+```python
+import torch
+from torch import nn, optim
+
+model = nn.Sequential(nn.Linear(128, 64), nn.ReLU(), nn.Linear(64, 10))
+optimizer = optim.Adam(model.parameters(), lr=1e-3)
+loss_fn = nn.CrossEntropyLoss()
+
+for epoch in range(10):
+    model.train()
+    for xb, yb in train_loader:
+        preds = model(xb)
+        loss = loss_fn(preds, yb)
+        optimizer.zero_grad()
+        loss.backward()
+        optimizer.step()
+```
+
+## Contact
+- Email: lidiyamesenbet16@gmail.com
+- LinkedIn: https://www.linkedin.com/feed/update/urn:li:activity:7461368486683058176/
+- Twitter: https://twitter.com/lidu16
+
+If you'd like me to shorten further, change tone to more casual or more formal, or add screenshots and project highlights, tell me which tone and which projects to feature and I’ll update it.
